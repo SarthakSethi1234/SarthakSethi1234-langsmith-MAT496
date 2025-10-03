@@ -18,3 +18,25 @@ Changes I made:
 Since there was nothing much to do in the already existing file. I just added a few more questions and observed the Trace tree and the metadata. I creatd a simple chatbot using the same concepts where I traced each call ( question asked by the user) using the "@traceable" decorator and passed the metadata ( question number ) during runtime and observed it in the trace tree in the langsmith desktop.
 
 Link: https://github.com/SarthakSethi1234/SarthakSethi1234-langsmith-MAT496/blob/main/MODULE%201/tracing_basics_example.ipynb
+
+Video 2: Types of Run
+
+I learned the advantage of tracing over logging. In logging its difficult to find the root cause of an error while iterating through a stack trace. Especially in LLM applications because theres a lot of text to read through. Langsmith solves this issue by providing a very clean UI to track the traces.
+
+LangSmith provides different types of run and we can specify what type our run is in the @traceable decorator
+1. LLM: Invokes an LLM
+2. Retriver: Retrives documents from databases and other sources
+3. Tool: Executes actions with fucntion calls
+4. Chain: Combines multiple runs into a larger process. This is a default run type
+5. Prompt: Hydrates a prompt to be used with an LLM
+6. Parser: Extracts structured data
+
+Playground in LangSmith: It is a sandbox iteration environment where we can quickly iterate and test out new prompts. We get to use this when we use run_type="llm" and when we use the default run_type ie "chain" we do not get this option for it.
+
+Link:
+
+Changes I made:
+
+I wrote a code which tests and shows the use of llm and tools run type (with and without) . I defined a function that calculated the maths expression and a function where llm decides how to solve the expression and whether to call the tool or not. I also added the screenshots for all the codes from my langchain desktop in both of my files.
+
+Link: 
