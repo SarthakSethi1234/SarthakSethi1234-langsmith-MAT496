@@ -4,3 +4,17 @@ I struggled matching the Python interpreter in PyCharm but figured out how to se
 Learned to use load_dotenv() to Safely load environment variables (API keys) instead of hardcoding them.
 Successfully cloned a GitHub repo and ran a basic RAG application using the LangSmith docs as data.
 Since it bwas a basic setup my only modification was adding more test questions to check if the AI was working correctly.
+
+MODULE 1
+
+Video 1: Traininng Basics
+
+I learned how the @traceable decorator in LangSmith makes it simple to log traces by just adding it to a function. It automatically builds a run tree that shows every step of my application, including inputs, outputs, errors, and responses. This step-by-step view really helps in debugging, tracking latency, and even spotting places where I can parallelize expensive parts of the app. I also explored how metadata works — attaching key-value pairs like app version or environment to each run. This makes it easier to filter, group, and analyze runs later. Together, the run tree and metadata give me a clear picture of my app’s execution and make optimization much easier.
+
+Link:
+
+Changes I made: 
+
+Since there was nothing much to do in the already existing file. I just added a few more questions and observed the Trace tree and the metadata. I creatd a simple chatbot using the same concepts where I traced each call ( question asked by the user) using the "@traceable" decorator and passed the metadata ( question number ) during runtime and observed it in the trace tree in the langsmith desktop.
+
+Link:
