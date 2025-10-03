@@ -33,10 +33,10 @@ LangSmith provides different types of run and we can specify what type our run i
 
 Playground in LangSmith: It is a sandbox iteration environment where we can quickly iterate and test out new prompts. We get to use this when we use run_type="llm" and when we use the default run_type ie "chain" we do not get this option for it.
 
-Link:
+Link: https://github.com/SarthakSethi1234/SarthakSethi1234-langsmith-MAT496/blob/main/MODULE%201/types_of_runs.ipynb
 
 Changes I made:
 
 I wrote a code which tests and shows the use of llm and tools run type (with and without) . I defined a function that calculated the maths expression and a function where llm decides how to solve the expression and whether to call the tool or not. I also added the screenshots for all the codes from my langchain desktop in both of my files.
 
-Link: 
+Link: https://github.com/SarthakSethi1234/SarthakSethi1234-langsmith-MAT496/blob/main/MODULE%201/types_of_run_example.ipynb
