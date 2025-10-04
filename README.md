@@ -112,7 +112,7 @@ Video 5: Pairwise Experiments
 
 I learned that the core value of pairwise experiments is to perform a direct, comparative evaluation between two distinct versions of your application (e.g., a new prompt vs. the old one). This is achieved by running both versions on the same dataset and then using a sophisticated LLM-as-a-Judge to objectively score which output is better.
 
-Link:
+Link: https://github.com/SarthakSethi1234/SarthakSethi1234-langsmith-MAT496/blob/main/MODULE%202/pairwise_experiments.ipynb
 
 Changes I made:
 I applied this copncept on a dummy dataset and analysed it. I successfully configured the experiment to run two different application versions side-by-side and used the LLM-as-a-Judge to generate comparative scores. The final analysis, including the resulting win/loss rates and the specific outputs that drove the judge's decision. I also attached teh screenshots for the same.
