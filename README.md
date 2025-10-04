@@ -84,11 +84,11 @@ Video 2:
 
 I learned about evauluators in this module. They are essentially functions or processes used to score and quantify the performance of your Large Language Model (LLM) application or agent on specific test cases. They compare the dataset example against the output of our llm and rate them based on a score. Furthermore evaluators can be defined in both the jupyter notebook or LangSmith website directly inside the database. We can define evaulators using our own custom code or use an llm as a judge.
 
-Link:
+Link: https://github.com/SarthakSethi1234/SarthakSethi1234-langsmith-MAT496/blob/main/MODULE%202/evaluators.ipynb
 
 Changes I made:
 I added my own carefully selected examples to the existing evaluator in the source code to show how the evaluator’s score changes as the quality of the output improves based on a chosen metric — in this case, coherence. I also defined a new evaluator that measures the coherence score of an LLM’s response compared to a reference response, using another LLM as a judge. The score ranges from 1 to 5, where 1 means highly coherent and 5 means poorly structured or inconsistent. I tested this evaluator with different types of outputs to check its reliability, and it worked as expected. I also attached the screenshots of my observations in the above link.
 
-Link:
+Link: https://github.com/SarthakSethi1234/SarthakSethi1234-langsmith-MAT496/blob/main/MODULE%202/evaluators_example.ipynb
 
   
