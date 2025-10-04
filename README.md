@@ -73,11 +73,11 @@ Video 1: Datasets
 
 I learned about datasets which are primarily a list of examples which are used to test and evaluate our llm application rather than just doing a few random "gut checks". In this module we created datasets which comprised of both inputs and outputs. I also learned how to tag a paricular version of a dataset. These version tag are helpful when we want to test our appllication on previous versions of the application after making a few changes to the initial versions. I also learned how to add new data to the dataset directly from the trace runs and manually. Then i leanred about schema which enssures our data (current and future) is stored in a fomatted way. I also explored the feature to add some AI genrated examples. I also explored split which is used to isolate a few examples which we think are very important for our llm application to score good on. I also learned that we can share the dataset with others, download it or clone it.
 
-Link: 
+Link: https://github.com/SarthakSethi1234/SarthakSethi1234-langsmith-MAT496/blob/main/MODULE%202/dataset_upload.ipynb
 
 Changes I made:
 I created my own dataset and followed all the instructions given in the video and attached the screenshots of all the steps followed.
 
-Link: 
+Link: https://github.com/SarthakSethi1234/SarthakSethi1234-langsmith-MAT496/blob/main/MODULE%202/dataset_upload_example.ipynb
 
 
