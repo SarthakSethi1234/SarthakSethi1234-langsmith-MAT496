@@ -95,12 +95,12 @@ Video 3: Experiments
 
 Experiments are basically running your llm application over a dataset and evauluating its performance with evaluators. We can run experiments in our SDK( using evaluate() ) or in the langsmith UI. I also analysed the impact of chanhing the llm model on the evaulation of the performance. I also learned how to run our experiment on specific subsets of examples like the initial version of the dataset and the split versions, and individual examples. I also learned that we can run our experiment over a certain example for x number of times this ensures us that we get consitent results. We can also run our experimnets with different parameters such as repetition, concurrent threads and metadata.
 
-Link:
+Link: https://github.com/SarthakSethi1234/SarthakSethi1234-langsmith-MAT496/blob/main/MODULE%202/experiments.ipynb
 
 Changes I made:
 I created my own dataset based on a few facts about the planets and ran all the code snippets I had written on it. I carefully observed the outputs to see how the evaluators scored different responses and how the metrics behaved with my data. I also attached screenshots from my LangChain portal to show the results and the run trees for each example, giving a clear picture of how everything worked end-to-end.
 
-Link: 
+Link: https://github.com/SarthakSethi1234/SarthakSethi1234-langsmith-MAT496/blob/main/MODULE%202/experiments_example.ipynb
 
 
 
