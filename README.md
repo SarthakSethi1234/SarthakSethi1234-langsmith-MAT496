@@ -102,6 +102,13 @@ I created my own dataset based on a few facts about the planets and ran all the 
 
 Link: https://github.com/SarthakSethi1234/SarthakSethi1234-langsmith-MAT496/blob/main/MODULE%202/experiments_example.ipynb
 
+Video 4: Analysing Experiments
+
+I learned how to systematically evaluate LLM applications using multiple evaluators - both code-defined (is_concise) and UI-configured (correctness) - to track performance trends over time as I iterate on my application. The platform's filtering capabilities allowed me to isolate specific model runs (like gpt-4o) and compare experiments side-by-side through summary charts and latency metrics, providing hard empirical data to justify production deployments. Most valuable was the ability to deep dive into individual experiment runs and trace how each dataset example performed, enabling me to identify specific failure patterns and make data-driven optimizations with confidence before pushing changes to production.
+
+Link:
+
+
 
 
 
