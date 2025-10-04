@@ -118,7 +118,7 @@ Video 6: [Optional] Summary Evaluators
 
 What I learned from this is that summary evaulators take in a list as input rather than normal evaulator which take in a single input and compare that against a single output and after taking in the list these summary evaulators calculate a aggregate metrics for the entire dataset. Thus F1 score makes sense for the entrire dataset and not just a single example.
 
-Link: 
+Link: https://github.com/SarthakSethi1234/SarthakSethi1234-langsmith-MAT496/blob/main/MODULE%202/summary_evaluators.ipynb
 
 
 
