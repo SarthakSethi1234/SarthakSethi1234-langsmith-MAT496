@@ -40,3 +40,18 @@ Changes I made:
 I wrote a code which tests and shows the use of llm and tools run type (with and without) . I defined a function that calculated the maths expression and a function where llm decides how to solve the expression and whether to call the tool or not. I also added the screenshots for all the codes from my langchain desktop in both of my files.
 
 Link: https://github.com/SarthakSethi1234/SarthakSethi1234-langsmith-MAT496/blob/main/MODULE%201/types_of_run_example.ipynb
+
+Video 3: Alternative ways to trace
+
+In this video i learned that @tracabel decorator is the default way to set up tracing. Different nodes in a graph makes use of the langChain components. As in Langchain we can also pass metadata in langgraph as well using config argument that invoke takes. I also learned that tracing is done by default after setting up our environment variables and leveraging langchain and langgraph. Using with trace() helps us log any calls done within a specific block of code giving us more granular control. Next, I learned about the wrap_openai() which is for the users who want to use OpenAi SDK directly. So now after wrapping up our openAI client , any calls made to it will be automatically get traced to langsmith. I also learned that we can pass metadata using langsmith_extra feild.
+
+Link:
+
+Changes I made:
+
+I modified my previous example ie the chatbot that I made and applied the new alternative ways to trace to it and observed the changes in the langsmith portal and added my observations with screenshots.
+The alternative ways I applied: 
+1. with_trace()
+2. wrap_openai()
+
+Link: 
