@@ -55,3 +55,14 @@ The alternative ways I applied:
 2. wrap_openai()
 
 Link: https://github.com/SarthakSethi1234/SarthakSethi1234-langsmith-MAT496/blob/main/MODULE%201/alternative_tracing_methods_example.ipynb
+
+Video 4: Conversational Threads
+
+In this video I learned about threads which basically is an abtraction which contains a series of traces where each trace is an invocation of our app. We can create thereads by passing a uuid as a pair value in the metadata using the langchain_extra feild. This is very useful when we want to debugg a full interaction between a human and the llm application that has multiple traces.
+
+Link: 
+
+Changes I made:
+I revamped my chatbot to trace all the chats between the user and llm. I generate a new uuiad whenever the chatbot was invoked and provided that as a metadata. This helped me keep a track of all the traces related to a particular conversation between the user and the llm. I also added my observations and screenshots in the notebook.
+
+Link: 
