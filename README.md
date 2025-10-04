@@ -108,15 +108,17 @@ I learned how to systematically evaluate LLM applications using multiple evaluat
 
 Link: https://github.com/SarthakSethi1234/SarthakSethi1234-langsmith-MAT496/blob/main/MODULE%202/analysing_experiments.ipynb
 
-Video 5: Pairwise Experiments
+Video 5: [Optional] Pairwise Experiments
 
 I learned that the core value of pairwise experiments is to perform a direct, comparative evaluation between two distinct versions of your application (e.g., a new prompt vs. the old one). This is achieved by running both versions on the same dataset and then using a sophisticated LLM-as-a-Judge to objectively score which output is better.
 
 Link: https://github.com/SarthakSethi1234/SarthakSethi1234-langsmith-MAT496/blob/main/MODULE%202/pairwise_experiments.ipynb
 
-Changes I made:
-I applied this copncept on a dummy dataset and analysed it. I successfully configured the experiment to run two different application versions side-by-side and used the LLM-as-a-Judge to generate comparative scores. The final analysis, including the resulting win/loss rates and the specific outputs that drove the judge's decision. I also attached teh screenshots for the same.
+Video 6: [Optional] Summary Evaluators
 
+What I learned from this is that summary evaulators take in a list as input rather than normal evaulator which take in a single input and compare that against a single output and after taking in the list these summary evaulators calculate a aggregate metrics for the entire dataset. Thus F1 score makes sense for the entrire dataset and not just a single example.
+
+Link: 
 
 
 
