@@ -143,13 +143,13 @@ Video 2: Prompt Hub
 
 I learned about langsmith's prompt hub which is a great place for users to store their prompt templates. This typically contains a list of messages which can be either system message or human message. These are not just strings but modifiable template which can contain variables that the user will input at the run time. A prompt template contains: Templated messages, model configuration and may or may not contain an output schema.
 
-Link:
+Link: https://github.com/SarthakSethi1234/SarthakSethi1234-langsmith-MAT496/blob/main/MODULE%203/prompt_hub.ipynb
 
 Chnages I made:
 
 Firstly, I followed the tutorial and pasted all the observations as screenshots in the original notebook. Secondly, I created a new notebook wherein I created my own prompts and tested them out. I explored Pulling prompts from Prompt Hub, commiting changes to that prompt and uploading prompts via SDK.
 
-Link:
+Link: https://github.com/SarthakSethi1234/SarthakSethi1234-langsmith-MAT496/blob/main/MODULE%203/prompt_hub_example.ipynb
 
 
 
