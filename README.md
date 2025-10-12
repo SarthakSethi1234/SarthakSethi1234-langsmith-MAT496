@@ -131,13 +131,13 @@ Video 1: Playground
 
 I learned the difference between the prompt templates and hardcoded prompts. Prompt templates gives user more flexibility by having certain variables. Further I learned how to use Playground on langsmith desktop. On exploring a few prompts, I noticed how dramatically our output changes on changing our system prompt. In the playground I can also test out different models on different parameters and compare their performace and outputs on same prompts. We can also see our outputs in a non streaming way. Next I lerned about output schema, which forces the model's output to follow a certain format. I also learned that we could use a tool instead of output schema here. I also leaned that we can run tests on our datasets in the playground
 
-Link:
+Link: https://github.com/SarthakSethi1234/SarthakSethi1234-langsmith-MAT496/blob/main/MODULE%203/playground_experiments.ipynb
 
 Changes I made:
 
 Since this video contained breif introduction to playground and its features, I explored all of it with the tutorial and attached all of its screenshots in the notebook.
 
-Link:
+Link: https://github.com/SarthakSethi1234/SarthakSethi1234-langsmith-MAT496/blob/main/MODULE%203/Playground.ipynb
 
 
 
