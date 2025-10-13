@@ -151,6 +151,18 @@ Firstly, I followed the tutorial and pasted all the observations as screenshots 
 
 Link: https://github.com/SarthakSethi1234/SarthakSethi1234-langsmith-MAT496/blob/main/MODULE%203/prompt_hub_example.ipynb
 
+Video 3: Prompt Engineering Lifecycle
+
+In this video we walked through an end to end exmaple wherein we learned how to use playground and prompt hub to help iterate on a particular prompt within our application. I also learned that if I continue to go back to the langsmith interface and continue to edit and iterate on this prompt making new commits, the code refelects the latest commits and I dont need to change my code again and again every single time I update the prompt which is a very powerful thing.
+
+Link:
+
+Changes I made:
+
+I made my own dataset on AI ethics and transparency and used the playground and prompthub to iterate on a particular prompt.
+
+Link:
+
 
 
 
