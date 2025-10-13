@@ -163,7 +163,15 @@ I made my own dataset on AI ethics and transparency and used the playground and 
 
 Link: https://github.com/SarthakSethi1234/SarthakSethi1234-langsmith-MAT496/blob/main/MODULE%203/prompt_engineering_lifecycle_example.ipynb
 
+Video 4: Prompt Canvas
 
+In this video I learned about prompt canvas which uses an LLM to imporve on our prompts. The interface in langsmith provides us with a chatbox where we can chat with an LLM to write, update, and improve our exisisting prompt. I also leanrned that we can ask the LLM to just change the specfic parts of our prompt. The user can also create quick actions for example, correcting grammar in the prompt canvas, to form an example in the way the user wants to etc. Setting up custom actions involves naming it and adding up instructions which are passed to our llm as a prompt and once it is created it can be used by anyone in the workspace. All of this is really importnat to standardise a prompt across a product or entire organisation.
+
+Link:
+
+Changes I made:
+
+Since there was no notebook related this video I followed the tutorial diligently and pasted the screenshots and observations I made while in the link above.
 
 
 
